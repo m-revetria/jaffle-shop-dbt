@@ -23,15 +23,27 @@ customer_orders as (
 
 ),
 
+customer_payments as (
+
+  select
+    customer_id,
+    sum(amount) as total_amount
+  from payments
+  group by 1
+
+),
+
 final as (
   
   select 
     customers.customer_id, 
     customers.name, 
     customer_orders.first_order_date,
-    coalesce(customer_orders.number_of_orders, 0) as number_of_orders
+    coalesce(customer_orders.number_of_orders, 0) as number_of_orders,
+    coalesce(customer_payments.total_amount, 0) as total_amount
   from customers
   left join customer_orders using (customer_id)
+  left join customer_payments using (customer_id)
 
 )
 
