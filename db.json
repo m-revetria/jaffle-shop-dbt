@@ -1,0 +1,129 @@
+{
+  "customers": [
+    {
+      "id": "c4f8e73b-6992-49b2-a68d-bc0486441357",
+      "first_name": "Chad",
+      "last_name": "Chavez"
+    },
+    {
+      "id": "f46c3c0e-99ba-40d4-8f30-42378e30d1eb",
+      "first_name": "Brandon",
+      "last_name": "Hill"
+    },
+    {
+      "id": "de5a9b29-8352-4a1c-a3dc-709b601b48ff",
+      "first_name": "Patricia M.",
+      "last_name": "Dickerson"
+    },
+    {
+      "id": "54340e8a-86df-46d2-b07d-d09345c95195",
+      "first_name": "Matthew",
+      "last_name": "Grant"
+    }
+  ],
+  "payments": [
+    {
+      "id": "bf62f3b0-481d-42eb-9501-c776995991a2",
+      "customer_id": "c4f8e73b-6992-49b2-a68d-bc0486441357",
+      "order_id": "c2baf1c6-5f66-40f9-8b62-8f9f4a599598",
+      "amount": 2650,
+      "created_at": "2022-01-01T12:23:34Z"
+    },
+    {
+      "id": "6804f52d-e3e4-4815-bb23-0ee28ad0cd5d",
+      "customer_id": "c4f8e73b-6992-49b2-a68d-bc0486441357",
+      "order_id": "900553d3-c673-4a28-a260-1e700ca99bc0",
+      "amount": 1272,
+      "created_at": "2022-02-01T12:23:34Z",
+      "order_number": 1
+    },
+    {
+      "id": "a018f775-c8bf-49c3-9fb0-0d41f5c2a29b",
+      "customer_id": "c4f8e73b-6992-49b2-a68d-bc0486441357",
+      "order_id": "dd66d3de-acb3-4edc-a9aa-96a8dc89ebbb",
+      "amount": 3710,
+      "created_at": "2022-03-01T12:23:34Z",
+      "order_number": 2
+    },
+    {
+      "id": "0a10a0fa-15bf-4898-b743-e1b3c7cb98f2",
+      "customer_id": "c4f8e73b-6992-49b2-a68d-bc0486441357",
+      "order_id": "7a38698d-3b71-4b7a-a8e8-fa8d6d5e2a6b",
+      "amount": 2544,
+      "created_at": "2022-04-01T12:23:34Z",
+      "order_number": 3
+    },
+    {
+      "id": "2467b6ad-f324-4254-a38b-3d2f53bed8f1",
+      "customer_id": "f46c3c0e-99ba-40d4-8f30-42378e30d1eb",
+      "order_id": "61ece5cb-d23a-42f2-b8ad-a4e94b5940a0",
+      "amount": 530,
+      "created_at": "2022-05-01T12:23:34Z",
+      "order_number": 4
+    },
+    {
+      "id": "41609acd-b442-4364-a086-59e85ef84a3a",
+      "customer_id": "f46c3c0e-99ba-40d4-8f30-42378e30d1eb",
+      "order_id": "48fa5390-36ff-4bc0-967f-0ed469207daf",
+      "amount": 636,
+      "created_at": "2022-06-01T12:23:34Z",
+      "order_number": 5
+    },
+    {
+      "id": "90a9c898-90b5-49e0-b780-5d19692d5dab",
+      "customer_id": "f46c3c0e-99ba-40d4-8f30-42378e30d1eb",
+      "order_id": "d77ad541-eb60-4454-b314-4fc5f0ee2e3d",
+      "amount": 530,
+      "created_at": "2022-07-01T12:23:34Z",
+      "order_number": 6
+    },
+    {
+      "id": "45dad8dd-bac9-4f11-9f82-cca559e9ee90",
+      "customer_id": "de5a9b29-8352-4a1c-a3dc-709b601b48ff",
+      "order_id": "24dcdc74-bad9-431f-9346-aabf03512910",
+      "amount": 1696,
+      "created_at": "2022-08-01T12:23:34Z",
+      "order_number": 7
+    },
+    {
+      "id": "4acdf35e-a578-4a6f-8b12-008bfac70375",
+      "customer_id": "de5a9b29-8352-4a1c-a3dc-709b601b48ff",
+      "order_id": "1841e24a-5868-494b-b516-7e6fe1bfc78f",
+      "amount": 1802,
+      "created_at": "2022-09-01T12:23:34Z",
+      "order_number": 8
+    },
+    {
+      "id": "6c414daf-df46-44ce-b7d4-86de2243b083",
+      "customer_id": "de5a9b29-8352-4a1c-a3dc-709b601b48ff",
+      "order_id": "ec1ca807-63c4-4587-adc8-50afc5def80b",
+      "amount": 1907,
+      "created_at": "2022-10-01T12:23:34Z",
+      "order_number": 9
+    },
+    {
+      "id": "ff1db3f6-7383-44b8-8ed9-6d50523203be",
+      "customer_id": "54340e8a-86df-46d2-b07d-d09345c95195",
+      "order_id": "b126af2e-1f01-418a-a195-7294b8ca59f2",
+      "amount": 636,
+      "created_at": "2022-11-01T12:23:34Z",
+      "order_number": 10
+    },
+    {
+      "id": "827b0b2b-2ba1-48eb-a8a4-bb8dc8b3cf1a",
+      "customer_id": "54340e8a-86df-46d2-b07d-d09345c95195",
+      "order_id": "8ac43ab5-0696-4da4-a501-347afddb22f9",
+      "amount": 424,
+      "created_at": "2022-12-01T12:23:34Z",
+      "order_number": 11
+    },
+    {
+      "id": "92ef4885-4996-4353-a261-ada2692fc1f4",
+      "customer_id": "54340e8a-86df-46d2-b07d-d09345c95195",
+      "order_id": "5b23fb74-aeeb-4fe4-a9d2-9564dbb7bb93",
+      "amount": 530,
+      "created_at": "2023-01-01T12:23:34Z",
+      "order_number": 12
+    }
+  ]
+}
